@@ -13,6 +13,7 @@ let angle, fireStartX, fireStartY;      //Rotation and fire coordinates
 
 // [AI Used] ChatGPT helped organize full scene logic for cigarette, foot and fire
 function scene1() {
+    angle = radians(10);
     image(grassBg, 0, 0);       // Draw grass background image
     Cigarette1(cigX, cigY);     // Draw cigarette
     dropCigarette();        // Animate cigarette falling
@@ -72,7 +73,7 @@ function Grass(pg) {
 function Cigarette1(x, y) {
     push();
     translate(x - 10, y);       // Cigarette pposition
-    rotate(radians(10));      // Apply angle
+    rotate(angle);      // Apply angle
     noStroke();
 
     if (stepTriggered && footY >= cigY - 30) {
