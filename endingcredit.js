@@ -2,7 +2,7 @@ function endingCredit() {
     background(0);
     textAlign(CENTER, CENTER);
     textSize(50);
-    text("ENDING CRADIT", width / 2, 0.08 * height);
+    text("ENDING CREDIT", width / 2, 0.08 * height);
     textSize(22);
     fill(255, 190, 190);
     text("쑤슌레이나인 소감: 이번 프로젝트를 통해 p5.js를 더 깊이 이해하게 되었고 다양한 활용 방법을 배울 수 있었습니다.\n 대부분 AI의 도움을 받았지만 팀원들의 도움 덕분에 부족한 부분을 채울 수 있었고 협업의 중요성을 느꼈습니다.", width / 2, 0.2 * height);
