@@ -113,9 +113,9 @@ function Foot(x, y) {
     rect(-30, -height, 70, height);     // Leg
 
     fill(0);        // Foot sole and shape
-    beginShape();
     ellipse(-25, 40, 40, 20);
     rect(-20, 0, 50, 15);
+    beginShape();
     vertex(-15, 10);
     vertex(30, 15);
     vertex(-15, 50);
