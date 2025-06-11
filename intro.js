@@ -7,7 +7,7 @@ function intro() {
 
     textSize(20);
     textAlign(RIGHT, TOP);
-    text("12조\n이준서(소스 코드 통합, 씬 5, 6 개발 및 디자인)\n이예찬(씬 5, 6 개발 및 디자인)\n쑤슌레이나인(씬 1, 2 개발 및 디자인)", width - 30, 120);
+    text("12조\n이준서(소스 코드 통합, 씬 5, 6 개발 및 디자인)\n이예찬(씬 3, 4 개발 및 디자인)\n쑤슌레이나인(씬 1, 2 개발 및 디자인)", width - 30, 120);
 
     textSize(22);
     textAlign(LEFT, TOP);
